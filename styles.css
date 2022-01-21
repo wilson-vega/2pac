@@ -1,0 +1,119 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+body {
+  background-color: black;
+  font-family: cursive;
+  max-width: 800px;
+  padding: 0 90px;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  background: darkgrey;
+  width: 68.8rem;
+  height: 80px;
+  margin: auto;
+  align-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  float: right;
+}
+
+.navbar nav ul li {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+img {
+  width: 50px;
+}
+
+a {
+  color: whitesmoke;
+}
+
+.facebook {
+  width: 43px;
+}
+
+.perfil {
+  width: 140px;
+}
+
+.banner {
+  width: 68.8rem;
+  height: 300px;
+}
+
+
+.galeria{
+    display: flex;
+    align-content: center;
+    width: 68.8rem;
+    
+}
+
+div.galeria img {
+  border-radius: 20px;
+}
+
+div.galeria img:hover {
+  transform: rotate(180deg);
+}
+
+
+.fotoo1{
+    height: 50px;
+}
+
+
+
+
+.title{
+    width: 68.8rem;
+    text-align: center;
+}
+
+
+.photos{
+    display: flex;
+    width: 68.8rem;
+    
+}
+
+.video{
+    width: 68.8rem;
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    justify-content: space-between;
+    width: 68.8rem;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.redes{
+    display: flex;
+    float: right;
+}
+
+footer ul{
+    list-style: none;
+}
+
+
+ul li:hover{
+    background-color: gainsboro;
+}
